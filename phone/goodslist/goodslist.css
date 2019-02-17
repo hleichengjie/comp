@@ -1,0 +1,33 @@
+.goodslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.goodslist .goods-item {
+  width: 45%;
+  box-shadow: 0 0 8px #ccc;
+  padding: 5px;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 293px;
+}
+.goodslist .goods-item img {
+  width: 100%;
+}
+.goodslist .goods-item h3 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.goodslist .goods-item p {
+  margin: 5px 0;
+}
+.goodslist .goods-item .price span {
+  color: red;
+  font-size: 16px;
+}
+.goodslist .goods-item .sell {
+  display: flex;
+  justify-content: space-between;
+}
